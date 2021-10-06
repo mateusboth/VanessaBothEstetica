@@ -1,0 +1,86 @@
+$primary-color: #edb4a4;
+$bg-color: #f5dede;
+$third-color: #2b2020;
+$quarta-cor: #2b2020;
+$quinta-cor: #7c6463;
+$text-color: #a34449;
+$secondary-text-color: #727773;
+$title-font: "Spartan", sans-serif;
+$text-font: "Belleza", sans-serif;
+
+*:before {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 6%;
+}
+
+body {
+  margin: 0;
+  background-color: $bg-color;
+  font-size: 16px;
+  font-family: $text-font;
+}
+img {
+  max-width: 100%;
+}
+
+main {
+  margin-top: 75px;
+}
+
+.conteudo {
+  h2 {
+    font-size: 3rem;
+    color: $primary-color;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: $title-font;
+    line-height: 1.5em;
+  }
+  h3 {
+    font-size: 2rem;
+    color: $text-color;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: $title-font;
+    line-height: 1.5em;
+  }
+
+  p {
+    color: $secondary-text-color;
+    padding-bottom: 10px;
+    line-height: 1.5em;
+  }
+  .secao {
+    border-bottom: solid $primary-color;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}
+.servico {
+  .servicos{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+  }  
+  a {
+    margin: 5px;
+    padding: 15px;
+    color: $secondary-text-color;
+    background-color: $primary-color;
+    align-self: center;
+    
+  }
+ 
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 10%;
+  max-width: 80px;
+  z-index: 2;
+}

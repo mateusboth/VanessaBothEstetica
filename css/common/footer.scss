@@ -1,0 +1,19 @@
+$primary-color: #edb4a4;
+$text-color: #a34449;
+
+footer {
+  background-color: $primary-color;
+  margin-top: 10px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: $text-color;
+  }
+  a {
+    font-size: 2rem;
+    color: $text-color;
+    text-decoration: none;
+  }
+}

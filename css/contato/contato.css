@@ -1,0 +1,24 @@
+.contato div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contato img {
+  padding-right: 20px;
+}
+
+.contato p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contato i {
+  font-size: 1.7rem;
+  padding-right: 15px;
+  color: #a34449;
+}
+/*# sourceMappingURL=contato.css.map */
