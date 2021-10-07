@@ -63,7 +63,7 @@ main {
           justify-content: center;
 }
 
-.servico a {
+.servico .servicos a {
   margin: 5px;
   padding: 15px;
   color: #727773;
@@ -71,6 +71,7 @@ main {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  border-radius: 3px;
 }
 
 .whatsapp {

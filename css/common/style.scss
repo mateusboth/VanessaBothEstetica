@@ -60,20 +60,19 @@ main {
   }
 }
 .servico {
-  .servicos{
+  .servicos {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
     justify-content: center;
-  }  
-  a {
-    margin: 5px;
-    padding: 15px;
-    color: $secondary-text-color;
-    background-color: $primary-color;
-    align-self: center;
-    
+    a {
+      margin: 5px;
+      padding: 15px;
+      color: $secondary-text-color;
+      background-color: $primary-color;
+      align-self: center;
+      border-radius: 3px;
+    }
   }
- 
 }
 
 .whatsapp {
