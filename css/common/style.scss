@@ -19,7 +19,7 @@ $text-font: "Belleza", sans-serif;
 body {
   margin: 0;
   background-color: $bg-color;
-  font-size: 16px;
+  font-size: 18px;
   font-family: $text-font;
 }
 img {
@@ -89,8 +89,17 @@ main {
 }
 
 @media (min-width:768px) {
+  body{
+    font-size: 20px;
+  }
   .container {
     margin: 0 auto;
     max-width: 900px;
+  }
+  .secao {
+    text-align: center;
+    img{
+      max-width: 50%;
+    }
   }
 }

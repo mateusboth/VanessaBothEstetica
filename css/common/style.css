@@ -10,7 +10,7 @@
 body {
   margin: 0;
   background-color: #f5dede;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Belleza", sans-serif;
 }
 
@@ -88,9 +88,18 @@ main {
 }
 
 @media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
   .container {
     margin: 0 auto;
     max-width: 900px;
+  }
+  .secao {
+    text-align: center;
+  }
+  .secao img {
+    max-width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
