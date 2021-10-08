@@ -18,3 +18,11 @@ $text-color: #a34449;
     color: $text-color;
   }
 }
+
+@media (min-width:768px) {
+  .contato{
+    div{
+      justify-content: center;
+    }
+  }
+}

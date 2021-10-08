@@ -21,4 +21,12 @@
   padding-right: 15px;
   color: #a34449;
 }
+
+@media (min-width: 768px) {
+  .contato div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=contato.css.map */

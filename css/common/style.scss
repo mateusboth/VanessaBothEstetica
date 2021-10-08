@@ -59,6 +59,10 @@ main {
     margin-bottom: 10px;
   }
 }
+
+.foto-sobre-mim{
+  text-align: center;
+}
 .servico {
   .servicos {
     display: flex;
@@ -80,6 +84,13 @@ main {
   bottom: 10px;
   right: 10px;
   width: 10%;
-  max-width: 80px;
+  max-width: 55px;
   z-index: 2;
+}
+
+@media (min-width:768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 900px;
+  }
 }
